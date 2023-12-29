@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body    {
+    background-color: antiquewhite;
+    margin: 0 auto;
+  }
+  
+  .buttons    {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+  }
+  
+  button  {
+      border-radius: 5px;
+      border-width: 1px;
+      font-size: 20px;
+      padding: 5px;
+  
+  }
+  .btn_red:hover  {
+      background-color: red;
+  }
+  
+  .btn_yellow:hover  {
+      background-color: yellow;
+  }
+  
+  .btn_green:hover  {
+      background-color: green;
+  }
+  
+  .btn_reset:hover  {
+      background-color: antiquewhite;
+  }
